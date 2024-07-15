@@ -295,3 +295,187 @@ body {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+@media (max-width: 1135px){
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.main {
+    padding-inline: 100px;
+}
+
+}
+
+@media (max-width: 1045px){
+
+.main {
+    padding-inline:20px;
+}
+
+}
+
+
+@media (min-width: 1046px){
+.img {
+    transition: transform 0.3s;
+    height: 180px;
+    width: 530px;
+    border-radius: 15%;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+}
+
+@media (max-width: 1045px){
+
+.main {
+    padding-inline:50px;
+
+}
+.img {
+    transition: transform 0.3s;
+    height: 150px;
+    width: 420px;
+    border-radius: 15%;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+}
+
+
+
+@media (max-width: 880px){
+
+
+.img {
+    transition: transform 0.3s;
+    height: 150px;
+    width: 420px;
+    margin-top: 300px;
+    margin-left: -500px;
+}
+
+.ENT_IP{
+
+    margin-left: 200px;
+
+}
+
+.Choose{
+    margin-left: 250px;
+}
+
+.ip_class{
+    margin-left: 200px;
+}
+
+.but_host_net{
+    margin-left: 250px;
+
+}
+}
+
+
+@media (max-width: 660px){
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.ip_class{
+    margin-left: 90px;
+}
+
+.but_host_net{
+    margin-left: 140px;
+
+}
+
+.ENT_IP{
+
+    margin-left: 90px;
+
+}
+
+.Choose{
+    margin-left: 140px;
+}
+}
+
+
+@media (max-width: 490px){
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav__link {
+    font-size: 10px;
+
+}
+
+
+.img{
+
+margin-left: -400px;
+
+}
+
+.ip_class{
+    margin-left: 40px;
+}
+
+.but_host_net{
+    margin-left: 70px;
+
+}
+
+.ENT_IP{
+
+    margin-left: 40px;
+
+}
+
+.Choose{
+    margin-left: 70px;
+}
+}
+
+
+@media (max-width: 435px){
+
+.img{
+
+width: 370px;
+height: 120px;
+margin-left: -350px;
+
+}
+
+.ip_class{
+    margin-left: 0px;
+}
+
+.but_host_net{
+    margin-left: 0px;
+
+}
+
+.ENT_IP{
+
+    margin-left: 0px;
+
+}
+
+.Choose{
+    margin-left: 0px;
+}
+}

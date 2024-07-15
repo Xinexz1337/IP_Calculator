@@ -12,13 +12,18 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     data = {'message': ''}
-    return render_template('index.html', data=data)
+    return render_template('ip_calc_index.html', data=data)
+
+@app.route('/List_of_Owners')
+def owners():
+    data = {'message': ''}
+    return render_template('ip_calc_ListofOwners.html', data=data)
 
 
 @app.route('/WhoWeAre')
 def who_we_are():
     data = {'message': ''}
-    return render_template('WhoWeAre.html', data=data)
+    return render_template('ip_calc_WhoWeAre.html', data=data)
 
 @app.route('/Contacts_Us')
 def Contacts_us():
