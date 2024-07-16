@@ -378,6 +378,49 @@ body {
     margin-left: 250px;
 
 }
+
+
+.header {
+
+  padding-top: 0px;
+
+}
+.header .header__top {
+  padding: 20px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+
+}
+
+.footer .footer__links {
+    row-gap: 0px;
+}
+
+
+.footer .footer-nav__link {
+    font-size: 10px;
+
+}
+
+.hackers{
+    display: none;
+}
+
+.footer{
+    padding-top: 0px;
+    height: 120px;
+}
+
+.footer .footer-nav__list {
+        padding-left: 0px;
+        flex-direction: row;
+        padding-right: 60px;
+        margin-bottom: 0px;
+    }
+}
+
 }
 
 
